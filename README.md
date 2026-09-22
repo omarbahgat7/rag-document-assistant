@@ -288,25 +288,6 @@ The ingestion notebook (`notebooks/phase2_rag_pipeline.ipynb`, Evaluation sectio
 - `num_chunks_retrieved` should equal the requested `top_k` unless the store has fewer chunks than that.
 - `answer_preview` should stay on-topic and cite the retrieved snippets rather than introducing unsupported claims.
 
----
 
-## 8. Screenshots
 
-> Replace these placeholders with actual screenshots before submitting.
 
-**Empty state / hero**
-```
-![Empty state screenshot](docs/screenshots/hero.png)
-```
-
-**Conversation with cited sources**
-```
-![Conversation screenshot](docs/screenshots/conversation.png)
-```
-
-**Backend health check / API docs**
-```
-![API docs screenshot](docs/screenshots/api-docs.png)
-```
-
-Suggested location for the actual image files: `docs/screenshots/`.
