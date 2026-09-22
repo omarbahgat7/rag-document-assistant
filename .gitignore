@@ -1,0 +1,24 @@
+# Environment variables (مهم جداً عشان السرية)
+.env
+*.env
+
+# Python / Virtual Environments (عشان ما نرفعش مجلدات الـ venv الثقيلة)
+.venv/
+venv/
+ENV/
+
+# Python compiled bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# IDEs & Editors (ملفات برامج التحرير زي فايسبوك كود أو بي إتش بي ستورم)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large data corpuses or vector stores (إذا كانت كبيرة الحجم ولا تريد رفعها)
+# backend/data/vector_store/
